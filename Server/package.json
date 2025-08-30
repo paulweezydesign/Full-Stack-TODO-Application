@@ -1,17 +1,45 @@
 {
-  "name": "server",
+  "name": "web-scraper-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Comprehensive web scraper application server",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["web-scraper", "puppeteer", "mongodb", "api"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.21.0",
-    "mysql2": "^3.11.2"
+    "cors": "^2.8.5",
+    "mongoose": "^8.0.0",
+    "puppeteer": "^21.0.0",
+    "multer": "^1.4.5-lts.1",
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.7.7",
+    "jsdom": "^23.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "mammoth": "^1.6.0",
+    "xlsx": "^0.18.5",
+    "pdf-parse": "^1.1.1",
+    "sharp": "^0.33.0",
+    "turndown": "^7.1.2",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "rate-limiter-flexible": "^4.0.1",
+    "openai": "^4.20.0",
+    "langchain": "^0.1.0",
+    "langchain-mongodb": "^0.1.0",
+    "uuid": "^9.0.1",
+    "cron": "^3.1.6",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   }
 }
