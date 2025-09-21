@@ -1,0 +1,200 @@
+.code-converter {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+.converter-header {
+  background-color: #2d2d30;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #3e3e42;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.converter-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.controls button {
+  background-color: #0e639c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.controls button:hover {
+  background-color: #1177bb;
+  transform: translateY(-1px);
+}
+
+.controls button:active {
+  transform: translateY(0);
+}
+
+.sample-btn {
+  background-color: #16825d !important;
+}
+
+.sample-btn:hover {
+  background-color: #1e9d6f !important;
+}
+
+.swap-btn {
+  background-color: #5a5a5a !important;
+  padding: 0.5rem 0.75rem !important;
+  font-size: 18px !important;
+}
+
+.swap-btn:hover {
+  background-color: #6a6a6a !important;
+}
+
+.clear-btn {
+  background-color: #c53030 !important;
+}
+
+.clear-btn:hover {
+  background-color: #e53e3e !important;
+}
+
+.direction-select {
+  background-color: #3c3c3c;
+  color: white;
+  border: 1px solid #3e3e42;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.direction-select:hover {
+  background-color: #4a4a4a;
+}
+
+.error-message {
+  background-color: #5a1d1d;
+  color: #f48771;
+  padding: 0.75rem 2rem;
+  border-bottom: 1px solid #642b2b;
+}
+
+.editor-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.editor-pane {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+}
+
+.editor-header {
+  background-color: #252526;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3e3e42;
+}
+
+.language-label {
+  background-color: #0e639c;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.pane-label {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.converter-footer {
+  background-color: #252526;
+  padding: 0.75rem 2rem;
+  border-top: 1px solid #3e3e42;
+  text-align: center;
+}
+
+.converter-footer p {
+  margin: 0;
+  color: #969696;
+  font-size: 13px;
+}
+
+/* Split pane styles */
+.SplitPane {
+  position: relative !important;
+  height: 100% !important;
+}
+
+.SplitPane .Resizer {
+  background-color: #3e3e42;
+  cursor: col-resize;
+  width: 4px !important;
+  margin: 0 -2px;
+  z-index: 1;
+  transition: background-color 0.2s;
+}
+
+.SplitPane .Resizer:hover {
+  background-color: #007acc;
+}
+
+.SplitPane .Resizer.vertical {
+  width: 11px;
+  margin: 0 -5px;
+  cursor: col-resize;
+}
+
+/* Monaco Editor theme adjustments */
+.monaco-editor {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}
+
+.monaco-editor .margin-view-overlays .line-numbers {
+  color: #5a5a5a !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .converter-header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .controls {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .converter-header h1 {
+    font-size: 1.25rem;
+  }
+}
