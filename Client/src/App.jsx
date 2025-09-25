@@ -1,12 +1,11 @@
 import React from 'react'
 import './index.css'
-import Home from './Home'
-import Alert from './Alert'
-import FlexBox from './FlexBox'
+import CodeEditor from './CodeEditor'
+
 const App = () => {
   return (
-    <div>
-      <FlexBox />
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <CodeEditor />
     </div>
   )
 }
