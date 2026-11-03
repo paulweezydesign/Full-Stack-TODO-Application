@@ -1,5 +1,11 @@
 # React + TypeScript + Vite
 
+## Backend URL
+
+The app sends conversion requests to `/convert` on the same origin by default. In development, `.env.development` points to the local FastAPI server at `http://127.0.0.1:8000`.
+
+If the frontend and backend are deployed on different origins, set `VITE_BACKEND_URL` to the backend's public origin when building the frontend. Vite embeds this value in the production bundle.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

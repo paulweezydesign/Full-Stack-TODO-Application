@@ -32,8 +32,9 @@ async def health():
 	return {"status": "ok"}
 
 
+# Keep this synchronous so FastAPI runs blocking conversion in its thread pool.
 @app.post("/convert", response_model=ConvertResponse)
-async def convert(req: ConvertRequest):
+def convert(req: ConvertRequest):
 	try:
 		output = convert_code(req.code, req.from_lang, req.to_lang)
 		return ConvertResponse(output=output)

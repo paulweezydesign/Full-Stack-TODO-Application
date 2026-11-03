@@ -8,6 +8,7 @@ from typing import Literal
 
 
 Language = Literal["python", "javascript"]
+TRANSCRYPT_TIMEOUT_SECONDS = 30
 
 
 class ConversionError(Exception):
@@ -44,7 +45,18 @@ def convert_python_to_js(source_code: str) -> str:
 			"-p", ".none",  # no module support plugin
 			py_path,
 		]
-		proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+		try:
+			proc = subprocess.run(
+				cmd,
+				stdout=subprocess.PIPE,
+				stderr=subprocess.PIPE,
+				text=True,
+				timeout=TRANSCRYPT_TIMEOUT_SECONDS,
+			)
+		except subprocess.TimeoutExpired as exc:
+			raise ConversionError(
+				f"Transcrypt timed out after {TRANSCRYPT_TIMEOUT_SECONDS} seconds."
+			) from exc
 		if proc.returncode != 0:
 			raise ConversionError(f"Transcrypt failed: {proc.stderr or proc.stdout}")
 

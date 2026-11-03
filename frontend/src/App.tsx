@@ -1,9 +1,9 @@
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import './App.css'
-import Editor, { OnMount } from '@monaco-editor/react'
-import ky from 'ky'
+import Editor from '@monaco-editor/react'
+import ky, { HTTPError } from 'ky'
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://127.0.0.1:8000'
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || ''
 
 type Language = 'python' | 'javascript'
 
@@ -42,8 +42,21 @@ function App() {
 				json: { code: input, from_lang: fromLang, to_lang: toLang },
 			}).json<ConvertResponse>()
 			setOutput(res.output)
-		} catch (e: any) {
-			setError(e?.response ? `Error ${e.response.status}` : (e?.message || 'Error'))
+		} catch (e: unknown) {
+			if (e instanceof HTTPError) {
+				let message = `Error ${e.response.status}`
+				try {
+					const body: unknown = await e.response.json()
+					if (body && typeof body === 'object' && 'detail' in body && typeof body.detail === 'string') {
+						message = body.detail
+					}
+				} catch {
+					// Keep the status when the response has no JSON detail.
+				}
+				setError(message)
+			} else {
+				setError(e instanceof Error ? e.message : 'Error')
+			}
 		} finally {
 			setLoading(false)
 		}
