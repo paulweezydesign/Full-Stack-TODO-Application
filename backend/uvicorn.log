@@ -1,0 +1,73 @@
+b"\x95\x00U\x00R\x00n\x01[\x03[\x05U\x005\x015\x01n\x020\x00n\x03/\x00n\x04U\x02\x13\x00H?n\x05XS[\x07U\x045\x01'\x00U\x04R\t[\x0bU\x05R\x0cU\x05R\x0e5\x025\x01 \x00MA\x0b\x00 \x00[\x10R\x12(\x00a\x12S\x01R\x15U\x045\x01n\x06O\x0b[\x17U\x045\x01n\x06Xa:wa\xbc[\x19U\x065\x01 \x00[\x19U\x015\x01 \x00[\x1b[\x1d[\x07U\x065\x01[\x07U\x015\x015\x025\x01\x13\x00Hzn\x07X\x17\x05\x00Xg\x05\x00:wad\x1e\x00Xs;\x00a\\[\x19X7\x05\x005\x01 \x00[\x19X7S\x02-\n\x05\x005\x01 \x00[\x19[\x03[\x1f[ U\x015\x025\x01U\x07S\x03-\nU\x07S\x04-\x00\x04\x005\x01 \x00[\x19XGS\x03-\nU\x07S\x04-\x00\x04\x005\x01 \x00O\x02Mc[#S\x055\x01e\x01\x0b\x00 \x00g\x00g\x00"
+b"\x95\x00U\x00R\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00n\x01[\x03\x00\x00\x00\x00\x00\x00\x00\x00[\x05\x00\x00\x00\x00\x00\x00\x00\x00U\x005\x01\x00\x00\x00\x00\x00\x005\x01\x00\x00\x00\x00\x00\x00n\x020\x00n\x03/\x00n\x04U\x02\x13\x00H?\x00\x00n\x05XS[\x07\x00\x00\x00\x00\x00\x00\x00\x00U\x045\x01\x00\x00\x00\x00\x00\x00'\x00\x00\x00U\x04R\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[\x0b\x00\x00\x00\x00\x00\x00\x00\x00U\x05R\x0c\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00U\x05R\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x005\x02\x00\x00\x00\x00\x00\x005\x01\x00\x00\x00\x00\x00\x00 \x00MA\x00\x00\x0b\x00 \x00[\x10\x00\x00\x00\x00\x00\x00\x00\x00R\x12\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00(\x00\x00\x00\x00\x00\x00\x00a\x12\x00\x00S\x01R\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00U\x045\x01\x00\x00\x00\x00\x00\x00n\x06O\x0b[\x17\x00\x00\x00\x00\x00\x00\x00\x00U\x045\x01\x00\x00\x00\x00\x00\x00n\x06Xa:w\x00\x00a\xbc\x00\x00[\x19\x00\x00\x00\x00\x00\x00\x00\x00U\x065\x01\x00\x00\x00\x00\x00\x00 \x00[\x19\x00\x00\x00\x00\x00\x00\x00\x00U\x015\x01\x00\x00\x00\x00\x00\x00 \x00[\x1b\x00\x00\x00\x00\x00\x00\x00\x00[\x1d\x00\x00\x00\x00\x00\x00\x00\x00[\x07\x00\x00\x00\x00\x00\x00\x00\x00U\x065\x01\x00\x00\x00\x00\x00\x00[\x07\x00\x00\x00\x00\x00\x00\x00\x00U\x015\x01\x00\x00\x00\x00\x00\x005\x02\x00\x00\x00\x00\x00\x005\x01\x00\x00\x00\x00\x00\x00\x13\x00Hz\x00\x00n\x07X\x17\x05\x00\x00\x00Xg\x05\x00\x00\x00:w\x00\x00ad\x00\x00\x1e\x00Xs;\x00\x00\x00a\\\x00\x00[\x19\x00\x00\x00\x00\x00\x00\x00\x00X7\x05\x00\x00\x005\x01\x00\x00\x00\x00\x00\x00 \x00[\x19\x00\x00\x00\x00\x00\x00\x00\x00X7S\x02-\n\x00\x00\x05\x00\x00\x005\x01\x00\x00\x00\x00\x00\x00 \x00[\x19\x00\x00\x00\x00\x00\x00\x00\x00[\x03\x00\x00\x00\x00\x00\x00\x00\x00[\x1f\x00\x00\x00\x00\x00\x00\x00\x00[ \x00\x00\x00\x00\x00\x00\x00\x00U\x015\x02\x00\x00\x00\x00\x00\x005\x01\x00\x00\x00\x00\x00\x00U\x07S\x03-\n\x00\x00U\x07S\x04-\x00\x00\x00\x04\x005\x01\x00\x00\x00\x00\x00\x00 \x00[\x19\x00\x00\x00\x00\x00\x00\x00\x00XGS\x03-\n\x00\x00U\x07S\x04-\x00\x00\x00\x04\x005\x01\x00\x00\x00\x00\x00\x00 \x00O\x02Mc\x00\x00[#\x00\x00\x00\x00\x00\x00\x00\x00S\x055\x01\x00\x00\x00\x00\x00\x00e\x01\x0b\x00 \x00g\x00g\x00"
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/bin/uvicorn", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/click/core.py", line 1462, in __call__
+    return self.main(*args, **kwargs)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/click/core.py", line 1383, in main
+    rv = self.invoke(ctx)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/click/core.py", line 1246, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/click/core.py", line 814, in invoke
+    return callback(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/uvicorn/main.py", line 410, in main
+    run(
+    ~~~^
+        app,
+        ^^^^
+    ...<45 lines>...
+        h11_max_incomplete_event_size=h11_max_incomplete_event_size,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/uvicorn/main.py", line 577, in run
+    server.run()
+    ~~~~~~~~~~^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+    ~~~~~~~~~~~^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+                      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspace/backend/app/main.py", line 5, in <module>
+    from .converters import convert_code, ConversionError
+  File "/workspace/backend/app/converters.py", line 7, in <module>
+    import js2py
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/js2py/__init__.py", line 72, in <module>
+    from .base import PyJsException
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/js2py/base.py", line 6, in <module>
+    from .utils.injector import fix_js_args
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/js2py/utils/injector.py", line 264, in <module>
+    check(six.get_function_code(check))
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/.local/lib/python3.13/site-packages/js2py/utils/injector.py", line 251, in check
+    raise RuntimeError(
+        'Your python version made changes to the bytecode')
+RuntimeError: Your python version made changes to the bytecode
